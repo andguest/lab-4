@@ -213,6 +213,7 @@ public class Application {
         return theCard;
     }
 
+
     private static JPanel createJoinTeamCard(JFrame jFrame, JoinTeamUseCase joinTeamUseCase) {
         final JPanel theCard = new JPanel();
         theCard.setLayout(new GridLayout(ROWS, COLS));
